@@ -1,0 +1,16 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "SRAM_array_128x16_test"
+  repList "spectre cmos_sch cmos.sch extracted schematic veriloga"
+  stopList "spectre"
+  hierDelim "."
+  netlistDir "/home/ecegrid/a/559mg30/mos_vlsi_proj/SRAM_lib/SRAM_simulation/SRAM_array_128x16_test/spectre/schematic/netlist"
+ )
+( model
+( "SRAM/SRAM_array_128x16_test/schematic" "SRAM_array_128x16_test" )
+( "SRAM/SRAM_array_128x16/extracted" "SRAM_array_128x16_extracted" )
+ )
+( "SRAM_array_128x16_test" "ihnl/cds2/map" )
+( "SRAM_array_128x16_extracted" "ihnl/cds3/map" )
+ )

@@ -1,0 +1,5 @@
+
+// Library name: SRAM
+// Cell name: 8T_SRAM
+// View name: schematic
+subckt SRAM_8T_SRAM_schematic BL BL_bar Gnd RBL RWL Vdd WBL

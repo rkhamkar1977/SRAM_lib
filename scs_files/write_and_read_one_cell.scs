@@ -1,0 +1,21 @@
+//Write and read one cell
+pre_pattern      pattern data="000011111100001111"
+wbl0_pattern     pattern data="000001000011000000"
+wbl50_pattern    pattern data="000000000000000000"
+wbl120_pattern   pattern data="000000000000000000"
+bl0_pattern      pattern data="000000000011000000"
+bl_bar0_pattern  pattern data="111111111100111111"
+rwl0_pattern     pattern data="000000010000001000"
+rwl50_pattern    pattern data="000000000000000000"
+rwl120_pattern   pattern data="000000000000000000"
+
+//Write and read multiple cell individually
+pre_pattern      pattern data="000011111100001111"
+wbl0_pattern     pattern data="000001000011000000"
+wbl50_pattern    pattern data="000000000000000000"
+wbl120_pattern   pattern data="000000000000000000"
+bl0_pattern      pattern data="000000000011000000"
+bl_bar0_pattern  pattern data="111111111100111111"
+rwl0_pattern     pattern data="000000010000001000"
+rwl50_pattern    pattern data="000000000000000000"
+rwl120_pattern   pattern data="000000000000000000"

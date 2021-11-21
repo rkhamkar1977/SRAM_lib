@@ -1,0 +1,11 @@
+CADENCE IHNL11140
+$model
+SRAM/8T_SRAM/schematic SRAM_8T_SRAM_schematic
+SRAM/SRAM_array_128x16/extracted SRAM_array_128x16_extracted
+SRAM/SRAM_array_128x16/schematic SRAM_array_128x16
+SRAM/SRAM_array_128x16_test/schematic SRAM_array_128x16_test
+$endmodel
+$net
+$endnet
+$param
+$endparam

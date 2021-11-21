@@ -1,0 +1,21 @@
+EVcdFile ""
+EVcdInfoFile ""
+VcdFile ""
+VcdInfoFile ""
+VectorFile nil
+allDefinitionFiles nil
+allDspfFiles nil
+allEVcdFiles nil
+allIncludedPaths nil
+allPspiceFiles nil
+allSpefFiles nil
+allStimulusFiles ((t "/home/ecegrid/a/559mg30/mos_vlsi_proj/SRAM_lib/scs_files/sram_array_stim.scs"))
+allVcdFiles nil
+allVectorFiles nil
+definitionFiles nil
+dspfFile nil
+hlcheck "off"
+includePath ""
+pspiceFile nil
+spefFile nil
+stimulusFile ("/home/ecegrid/a/559mg30/mos_vlsi_proj/SRAM_lib/scs_files/sram_array_stim.scs")

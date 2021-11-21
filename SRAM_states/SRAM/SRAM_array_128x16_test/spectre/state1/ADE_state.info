@@ -1,0 +1,3 @@
+projectDir = '"./../mos_vlsi_proj"
+designInfo = '("SRAM" "SRAM_array_128x16_test" "schematic" "spectre")
+descriptionText = "None"

@@ -1,0 +1,1 @@
+infoDpl = `(nil simulator "spectre" libName "SRAM" cellName "SRAM_array_128x16_test" viewName "schematic" cdslib "cds.lib" extractedViewPresent t)

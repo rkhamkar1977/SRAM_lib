@@ -1,0 +1,55 @@
+
+// Library name: SRAM
+// Cell name: SRAM_array_128x16
+// View name: schematic
+subckt SRAM_array_128x16 BL\<0\> BL\<1\> BL\<2\> BL\<3\> BL\<4\> BL\<5\> \
+        BL\<6\> BL\<7\> BL\<8\> BL\<9\> BL\<10\> BL\<11\> BL\<12\> \
+        BL\<13\> BL\<14\> BL\<15\> BL_bar\<0\> BL_bar\<1\> BL_bar\<2\> \
+        BL_bar\<3\> BL_bar\<4\> BL_bar\<5\> BL_bar\<6\> BL_bar\<7\> \
+        BL_bar\<8\> BL_bar\<9\> BL_bar\<10\> BL_bar\<11\> BL_bar\<12\> \
+        BL_bar\<13\> BL_bar\<14\> BL_bar\<15\> Gnd RBL\<0\> RBL\<1\> \
+        RBL\<2\> RBL\<3\> RBL\<4\> RBL\<5\> RBL\<6\> RBL\<7\> RBL\<8\> \
+        RBL\<9\> RBL\<10\> RBL\<11\> RBL\<12\> RBL\<13\> RBL\<14\> \
+        RBL\<15\> RWL\<0\> RWL\<1\> RWL\<2\> RWL\<3\> RWL\<4\> RWL\<5\> \
+        RWL\<6\> RWL\<7\> RWL\<8\> RWL\<9\> RWL\<10\> RWL\<11\> RWL\<12\> \
+        RWL\<13\> RWL\<14\> RWL\<15\> RWL\<16\> RWL\<17\> RWL\<18\> \
+        RWL\<19\> RWL\<20\> RWL\<21\> RWL\<22\> RWL\<23\> RWL\<24\> \
+        RWL\<25\> RWL\<26\> RWL\<27\> RWL\<28\> RWL\<29\> RWL\<30\> \
+        RWL\<31\> RWL\<32\> RWL\<33\> RWL\<34\> RWL\<35\> RWL\<36\> \
+        RWL\<37\> RWL\<38\> RWL\<39\> RWL\<40\> RWL\<41\> RWL\<42\> \
+        RWL\<43\> RWL\<44\> RWL\<45\> RWL\<46\> RWL\<47\> RWL\<48\> \
+        RWL\<49\> RWL\<50\> RWL\<51\> RWL\<52\> RWL\<53\> RWL\<54\> \
+        RWL\<55\> RWL\<56\> RWL\<57\> RWL\<58\> RWL\<59\> RWL\<60\> \
+        RWL\<61\> RWL\<62\> RWL\<63\> RWL\<64\> RWL\<65\> RWL\<66\> \
+        RWL\<67\> RWL\<68\> RWL\<69\> RWL\<70\> RWL\<71\> RWL\<72\> \
+        RWL\<73\> RWL\<74\> RWL\<75\> RWL\<76\> RWL\<77\> RWL\<78\> \
+        RWL\<79\> RWL\<80\> RWL\<81\> RWL\<82\> RWL\<83\> RWL\<84\> \
+        RWL\<85\> RWL\<86\> RWL\<87\> RWL\<88\> RWL\<89\> RWL\<90\> \
+        RWL\<91\> RWL\<92\> RWL\<93\> RWL\<94\> RWL\<95\> RWL\<96\> \
+        RWL\<97\> RWL\<98\> RWL\<99\> RWL\<100\> RWL\<101\> RWL\<102\> \
+        RWL\<103\> RWL\<104\> RWL\<105\> RWL\<106\> RWL\<107\> RWL\<108\> \
+        RWL\<109\> RWL\<110\> RWL\<111\> RWL\<112\> RWL\<113\> RWL\<114\> \
+        RWL\<115\> RWL\<116\> RWL\<117\> RWL\<118\> RWL\<119\> RWL\<120\> \
+        RWL\<121\> RWL\<122\> RWL\<123\> RWL\<124\> RWL\<125\> RWL\<126\> \
+        RWL\<127\> Vdd WBL\<0\> WBL\<1\> WBL\<2\> WBL\<3\> WBL\<4\> \
+        WBL\<5\> WBL\<6\> WBL\<7\> WBL\<8\> WBL\<9\> WBL\<10\> WBL\<11\> \
+        WBL\<12\> WBL\<13\> WBL\<14\> WBL\<15\> WBL\<16\> WBL\<17\> \
+        WBL\<18\> WBL\<19\> WBL\<20\> WBL\<21\> WBL\<22\> WBL\<23\> \
+        WBL\<24\> WBL\<25\> WBL\<26\> WBL\<27\> WBL\<28\> WBL\<29\> \
+        WBL\<30\> WBL\<31\> WBL\<32\> WBL\<33\> WBL\<34\> WBL\<35\> \
+        WBL\<36\> WBL\<37\> WBL\<38\> WBL\<39\> WBL\<40\> WBL\<41\> \
+        WBL\<42\> WBL\<43\> WBL\<44\> WBL\<45\> WBL\<46\> WBL\<47\> \
+        WBL\<48\> WBL\<49\> WBL\<50\> WBL\<51\> WBL\<52\> WBL\<53\> \
+        WBL\<54\> WBL\<55\> WBL\<56\> WBL\<57\> WBL\<58\> WBL\<59\> \
+        WBL\<60\> WBL\<61\> WBL\<62\> WBL\<63\> WBL\<64\> WBL\<65\> \
+        WBL\<66\> WBL\<67\> WBL\<68\> WBL\<69\> WBL\<70\> WBL\<71\> \
+        WBL\<72\> WBL\<73\> WBL\<74\> WBL\<75\> WBL\<76\> WBL\<77\> \
+        WBL\<78\> WBL\<79\> WBL\<80\> WBL\<81\> WBL\<82\> WBL\<83\> \
+        WBL\<84\> WBL\<85\> WBL\<86\> WBL\<87\> WBL\<88\> WBL\<89\> \
+        WBL\<90\> WBL\<91\> WBL\<92\> WBL\<93\> WBL\<94\> WBL\<95\> \
+        WBL\<96\> WBL\<97\> WBL\<98\> WBL\<99\> WBL\<100\> WBL\<101\> \
+        WBL\<102\> WBL\<103\> WBL\<104\> WBL\<105\> WBL\<106\> WBL\<107\> \
+        WBL\<108\> WBL\<109\> WBL\<110\> WBL\<111\> WBL\<112\> WBL\<113\> \
+        WBL\<114\> WBL\<115\> WBL\<116\> WBL\<117\> WBL\<118\> WBL\<119\> \
+        WBL\<120\> WBL\<121\> WBL\<122\> WBL\<123\> WBL\<124\> WBL\<125\> \
+        WBL\<126\> WBL\<127\>

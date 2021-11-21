@@ -1,0 +1,3 @@
+include "/package/eda/cells/ncsu-cdk-1.6.0.beta/models/hspice/public/tsmc18dN.m"
+include "/package/eda/cells/ncsu-cdk-1.6.0.beta/models/hspice/public/tsmc18dP.m"
+include "/home/ecegrid/a/559mg30/mos_vlsi_proj/scs_files/sram_array_stim_pattern.scs"

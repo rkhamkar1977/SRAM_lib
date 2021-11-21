@@ -1,0 +1,18 @@
+simulator lang=spectre
+_vVDD (Vdd 0) vsource dc=1.8 type=dc
+_vGND (Gnd 0) vsource dc=0 type=dc
+_vprech (prech 0) vsource data="pre_pattern" rptstart=1 rpttimes=0 val1=0 val0=1.8 delay=1n rise=1n fall=1n period=10n type=bit
+_vWBL0 (WBL\\<0\\> 0) vsource data="wbl0_pattern" rptstart=1 rpttimes=0 val1=1.8 val0=0 delay=1n rise=1n fall=1n period=10n type=bit
+_vWBL50 (WBL\\<50\\> 0) vsource data="wbl50_pattern" rptstart=1 rpttimes=0 val1=1.8 val0=0 delay=1n rise=1n fall=1n period=10n type=bit
+_vWBL60 (WBL\\<60\\> 0) vsource data="wbl60_pattern" rptstart=1 rpttimes=0 val1=1.8 val0=0 delay=1n rise=1n fall=1n period=10n type=bit
+_vWBL75 (WBL\\<75\\> 0) vsource data="wbl75_pattern" rptstart=1 rpttimes=0 val1=1.8 val0=0 delay=1n rise=1n fall=1n period=10n type=bit
+_vWBL120 (WBL\\<120\\> 0) vsource data="wbl120_pattern" rptstart=1 rpttimes=0 val1=1.8 val0=0 delay=1n rise=1n fall=1n period=10n type=bit
+_vBL0 (BL\\<0\\> 0) vsource data="bl0_pattern" rptstart=1 rpttimes=0 val1=1.8 val0=0 delay=1n rise=1n fall=1n period=10n type=bit
+_vBL_bar0 (BL_bar\\<0\\> 0) vsource data="bl_bar0_pattern" rptstart=1 rpttimes=0 val1=1.8 val0=0 delay=1n rise=1n fall=1n period=10n type=bit
+_vBL15 (BL\\<15\\> 0) vsource data="bl15_pattern" rptstart=1 rpttimes=0 val1=1.8 val0=0 delay=1n rise=1n fall=1n period=10n type=bit
+_vBL_bar15 (BL_bar\\<15\\> 0) vsource data="bl_bar15_pattern" rptstart=1 rpttimes=0 val1=1.8 val0=0 delay=1n rise=1n fall=1n period=10n type=bit
+_vRWL0 (RWL\\<0\\> 0) vsource data="rwl0_pattern" rptstart=1 rpttimes=0 val1=1.8 val0=0 delay=1n rise=1n fall=1n period=10n type=bit
+_vRWL50 (RWL\\<50\\> 0) vsource data="rwl50_pattern" rptstart=1 rpttimes=0 val1=1.8 val0=0 delay=1n rise=1n fall=1n period=10n type=bit
+_vRWL60 (RWL\\<60\\> 0) vsource data="rwl60_pattern" rptstart=1 rpttimes=0 val1=1.8 val0=0 delay=1n rise=1n fall=1n period=10n type=bit
+_vRWL75 (RWL\\<75\\> 0) vsource data="rwl75_pattern" rptstart=1 rpttimes=0 val1=1.8 val0=0 delay=1n rise=1n fall=1n period=10n type=bit
+_vRWL120 (RWL\\<120\\> 0) vsource data="rwl120_pattern" rptstart=1 rpttimes=0 val1=1.8 val0=0 delay=1n rise=1n fall=1n period=10n type=bit

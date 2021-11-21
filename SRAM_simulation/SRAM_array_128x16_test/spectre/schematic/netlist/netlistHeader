@@ -1,0 +1,7 @@
+// Generated for: spectre
+// Generated on: Nov 20 18:54:25 2021
+// Design library name: SRAM
+// Design cell name: SRAM_array_128x16_test
+// Design view name: schematic
+simulator lang=spectre
+global 0
