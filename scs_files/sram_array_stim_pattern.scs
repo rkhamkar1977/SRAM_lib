@@ -59,5 +59,6 @@ wbl75_pattern          pattern data="0100000000000000000000000000000"
 wbl120_pattern         pattern data="0000000000000001000000000000000"
 data_in0_pattern       pattern data="0100000000100000000000000000000"
 data_in15_pattern      pattern data="0100000000100000000000000000000"
+//0-50 (0-1) overlap, 0-60 (0-0), 50-75 (1-1), 0-120 (0-0), 0,50,75,120 (in order single reads 0110)
 //bl_bar0_pattern   pattern data="1011111111011111111111111111111"
 //bl_bar15_pattern  pattern data="0100000000100000000000000000000"
